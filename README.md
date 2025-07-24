@@ -37,31 +37,55 @@ API Client: Axios
 
 📂 Project Structure
 
-├── .kiro/
+📂 Proyecto/
+│
+├── 📂 .kiro/                      # Configuración requerida para Kiro
 │   ├── specs.json
 │   ├── hooks.json
-│   ├── steering.json
+│   └── steering.json
+│
+├── 📂 backend/                   # Backend API
+│   ├── server.js                 # Servidor Express básico
+│   ├── package.json
+│   ├── package-lock.json
+│   └── node_modules/
+│
+├── 📂 mindbuddy-ai/              # Frontend (React + Tailwind)
+│   ├── 📂 src/
+│   │   ├── 📂 components/
+│   │   │   ├── ChatBox.tsx         # Main chatbot logic
+│   │   │   ├── MoodTracker.tsx     # Mood selection grid
+│   │   │   ├── BreathingExercise.tsx
+│   │   │   ├── DailyTip.tsx        # Daily wellness tip
+│   │   │   ├── LessonCard.tsx      # Displays detailed lessons
+│   │   │   ├── ResourcesSection.tsx# Extra resources
+│   │   │   └── ui/                 # UI components (QuickButtons, Cards…)
+│   │   │
+│   │   ├── 📂 pages/
+│   │   │   ├── WelcomeScreen.tsx   # Landing page
+│   │   │   └── MindBuddyChat.tsx   # Main chat session page
+│   │   │
+│   │   ├── 📂 utils/
+│   │   │   └── moodResponses.ts    # Predefined mood-based responses
+│   │   │
+│   │   ├── 📂 types/
+│   │   │   └── lesson.ts           # Lesson data types
+│   │   │
+│   │   ├── App.tsx
+│   │   ├── index.tsx
+│   │   └── index.css
+│   │
+│   ├── .gitignore
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── postcss.config.js
+│   ├── tailwind.config.js
+│   ├── tsconfig.json
+│   └── README.md
+│
+├── LICENSE
+└── README.md                     
 
-mindbuddy-ai/
-├── src/
-│   ├── components/
-│   │   ├── ChatBox.tsx        # Main chatbot logic
-│   │   ├── MoodTracker.tsx    # Mood selection grid
-│   │   ├── BreathingExercise.tsx
-│   │   ├── DailyTip.tsx       # Daily wellness tip
-│   │   ├── LessonCard.tsx     # Displays detailed lessons
-│   │   ├── ResourcesSection.tsx # Extra resources
-│   ├── pages/
-│   │   ├── WelcomeScreen.tsx  # Landing page
-│   │   ├── MindBuddyChat.tsx  # Main chat session page
-│   ├── utils/
-│   │   ├── moodResponses.ts   # Predefined mood-based responses
-│   ├── types/
-│   │   ├── lesson.ts          # Lesson data types
-│   ├── App.tsx
-│   ├── index.tsx
-│   ├── index.css
-└── backend/ (coming soon)
 
 🚀 Getting Started
 
