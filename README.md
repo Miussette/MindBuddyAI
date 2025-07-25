@@ -1,6 +1,6 @@
-🧠 MindBuddy AI
+🧠 Breeza AI
 
-MindBuddy AI is a mental wellness companion designed to help users manage their emotions through:
+Breeza AI AI is a mental wellness companion designed to help users manage their emotions through:
 ✅ Guided breathing exercises
 ✅ Quick tips for anxiety, stress, and mindfulness
 ✅ A mood tracker with contextual responses
@@ -50,7 +50,7 @@ API Client: Axios
 │   ├── package-lock.json
 │   └── node_modules/
 │
-├── 📂 mindbuddy-ai/              # Frontend (React + Tailwind)
+├── 📂 breeza-ai/              # Frontend (React + Tailwind)
 │   ├── 📂 src/
 │   │   ├── 📂 components/
 │   │   │   ├── ChatBox.tsx         # Main chatbot logic
